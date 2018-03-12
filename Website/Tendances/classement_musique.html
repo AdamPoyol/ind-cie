@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classement musiques</title>
+<link href="classement_musique.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+			<nav>
+				<ul>
+					<li><a href="#"><img src="Ressources/Logo.PNG" id="LogoMenu"></a></li>	
+					<li>
+					<!--Choisir en fonction de la page où vous êtes, si le deuxième bouton est la recherche ou un lien pour aller sur une autre page. Mettez les inutiles en commentaire. Adaptez le CSS de la page en fonction des couleurs du bouton de votre page (ex: Bouton musique est en violet donc le thème de la page devrait être dans ces tons là)	-->
+						<!--<a href="#" id="Connexion"><h1>Connexion</h1></a>
+						<a href="#" id="Accueil"><h1>Accueil</h1></a>	
+						<a href="#" id="Playlist"><h1>Playlist</h1></a>	-->
+						<a href="#" id="Musiques"><h1>Musiques</h1></a>
+							
+					</li>	
+					
+					<li>	
+						<a href="#"><div id="BoutonMenu2"><h1>Mon Compte</h1></div></a>
+						
+						<!--<div id="searchbar">
+						     <input class="champ" type="text" placeholder="Rechercher" />
+						    <input class="bouton" type="button" value="Entrer " />						    
+						</div> -->
+					</li>
+			    </ul>
+			</nav>
+	</header>
+	
+	<section id="sectionTendances"> <!-- Cette section englobe le titre, et le tableau dans lequel sont affichées les
+										 musiques. Il s'agit de la section principale de la page.  -->
+	
+	
+		<h1 id="titreTendances"> <p> Tendances </p></h1> <!-- Titre -->
+		
+		<table >
+			<tr>
+				<th class="top5"><img src="#" class="imgMusique"></th>	<!-- La class top 5 regroupe le top 5 des tendance du moment. -->
+				<th class="top5"><img src="#" class="imgMusique"></th>	<!-- Son contenu doit être dynamique -->
+				<th class="top5"><img src="#" class="imgMusique"></th>
+				<th class="top5"><img src="#" class="imgMusique"></th>
+				<th class="top5"><img src="#" class="imgMusique"></th>
+			</tr>
+			<tr>
+				<td><img src="#" class="imgMusique"></td>	<!-- Les td regroupent les musiques en tendances du moment, sans ordre particulier -->
+				<td><img src="#" class="imgMusique"></td>
+				<td><img src="#" class="imgMusique"></td>
+				<td><img src="#" class="imgMusique"></td>
+				<td><img src="#" class="imgMusique"></td>
+			</tr>
+		</table>
+		
+		
+	</section>
+
+	<footer>
+			<div id="conteneurFoot">
+				<nav>
+					<div id="footergauche">
+						<ul>
+							<a class="navigator" href="contact.html" target="frameune">
+							<li>Contact</li></a>
+							<a class="navigator" href="mentions_legales.html"><li>Mentions Légales</li></a>
+							<a class="navigator" href="cookies.html"><li>Cookies</li></a>
+						</ul>
+					</div>
+					<div id="footerdroit">
+						<ul>
+							<li><a href="https://fr-fr.facebook.com/"><img src="Ressources/facebook.png"></a></li>
+							<li><a href="https://twitter.com/?lang=fr"><img src="Ressources/twitter.png"></a></li>
+							<li><a href="https://www.instagram.com/?hl=fr"><img src="Ressources/instagram.jpg"></a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+	</footer>
+
+</body>
+
+</html>
