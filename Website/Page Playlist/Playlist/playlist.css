@@ -2,7 +2,7 @@
 body{
     margin:5% 10% 10% 10%;
     padding:0;
-    background-color: #1F1F1F;
+    background-color: black;
 }
 li {
     display:inline;
@@ -179,17 +179,15 @@ aside#sidebar p{
     text-align: center;
 }
 #header{
-    margin:0% auto auto 8%;
+    margin:0 auto auto 8%;
 }
-.contenu{
-    margin:;
-}
+
 /*////////////////////////////////FOOTER////////////////////////////////////////*/
 
 #conteneurFoot{
     border-top:solid #3a3535;
     height:4em;
-    float:left;
+
 
 }
 #footergauche{
@@ -221,7 +219,7 @@ footer li {
     display:inline;
 }
 #footerdroit img {
-    width:20%;
+    width:30%;
     height:2em;
 }
 
