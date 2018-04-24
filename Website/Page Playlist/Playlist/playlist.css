@@ -1,15 +1,15 @@
 
 body{
-    margin:5% 10% 10% 10%;
     padding:0;
-    background-color: #1F1F1F;
+    background-color: black;
+    color: white;
 }
 li {
     display:inline;
 }
 #LogoMenu {
     border:solid black 0.5em;
-    width:30%;
+    width:31%;
     float:left;
     margin-left:2%;
 }
@@ -25,13 +25,13 @@ h1 {
     font-size:2em;
 }
 .fieldset{
-    background-color: #1F1F1F ;
+    background-color: black;
 }
 
 /*Différents menus-Premier bouton////////////////////////////////////////////////////*/
 #Connexion {
     border:solid black 0.5em;
-    width:30%;
+    width:31%;
     float:left;
     height:5em;
     line-height:1em;
@@ -45,7 +45,7 @@ h1 {
 
 #Musiques {
     border:solid black 0.5em;
-    width:15%;
+    width:31%;
     float:left;
     height:5em;
     line-height:1em;
@@ -58,7 +58,7 @@ h1 {
 }
 #Playlist {
     border:solid black 0.5em;
-    width:25%;
+    width:31%;
     float:left;
     height:5em;
     line-height:1em;
@@ -71,7 +71,7 @@ h1 {
 }
 #Accueil {
     border:solid black 0.5em;
-    width:30%;
+    width:31%;
     float:left;
     height:5em;
     line-height:1em;
@@ -86,21 +86,22 @@ h1 {
 
 #searchbar {
     border:solid black 0.5em;
-    width:40%;
-    margin-left: 30% ;
-    height:5em;
-    line-height:5em;
+    width:100%;
+    height:3em;
+    line-height:3em;
     text-align:center;
     background-color:#44508c;
     transition: background-color 0.4s;
-    margin-top:;
 }
+
 .champ {
     color:white;
     background-color:#00000091;
     border-radius:0.5em;
+    width: 30%;
     border:black;
 }
+
 .bouton {
     background-color:grey;
     border-radius:0.5em;
@@ -116,7 +117,7 @@ h1 {
 }
 #BoutonMenu2 {
     border:solid black 0.5em;
-    width:25%;
+    width:31%;
     float:left;
     height:5em;
     line-height:1em;
@@ -178,11 +179,8 @@ aside#sidebar p{
 .musicControl{
     text-align: center;
 }
-#header{
-    margin:0% auto auto 8%;
-}
 .contenu{
-    margin:;
+
 }
 /*////////////////////////////////FOOTER////////////////////////////////////////*/
 
